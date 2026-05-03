@@ -1,0 +1,7 @@
+clickhouse-connect
+faker
+pytest
+requests
+fastapi
+uvicorn
+ruff
