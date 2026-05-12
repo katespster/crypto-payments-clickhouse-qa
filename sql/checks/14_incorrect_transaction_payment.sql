@@ -1,3 +1,5 @@
+--This check validates payment state transitions. I use a window function to compare current and previous statuses for each payment.
+ --If a payment moves from failed to completed, it may indicate an invalid state transition or race condition.
 WITH ordered_events AS
 (
     SELECT

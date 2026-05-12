@@ -1,3 +1,5 @@
+--This is one of the most important checks. It detects mismatch between provider status and internal status. If the provider has confirmed the transaction, but our internal
+--payment is still not completed or settled, it may indicate callback processing failure or status synchronization bug.
 SELECT
     p.payment_id,
     p.user_id,

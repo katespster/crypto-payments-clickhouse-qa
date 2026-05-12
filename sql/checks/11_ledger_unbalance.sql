@@ -1,3 +1,5 @@
+--This check validates financial consistency. For every transaction and currency, total debit should match total credit.
+--If there is a difference, it may indicate accounting inconsistency or incorrect ledger posting.
 SELECT
     transaction_id,
     currency,

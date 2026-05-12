@@ -1,3 +1,5 @@
+-- This query is used for reconciliation between internal payment status and provider callback status.
+-- It helps verify that callbacks are received and linked to the correct payment.
 SELECT
     p.payment_id,
     p.status AS internal_status,

@@ -1,3 +1,5 @@
+--This query uses conditional aggregation. I can compare total payments, completed payments, processing payments and completed amount per currency.
+--It helps detect if some currency has abnormal processing rate or too many unfinished payments.
 SELECT
     currency,
     count() AS total,

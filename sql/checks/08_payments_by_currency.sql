@@ -1,3 +1,5 @@
+--validate payment distribution by currency.
+--It is useful for checking supported currencies, total volume and possible anomalies in amounts.
 SELECT
     currency,
     count() AS payments_count,

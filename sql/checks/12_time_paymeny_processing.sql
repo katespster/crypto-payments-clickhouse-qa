@@ -1,3 +1,5 @@
+--This query calculates payment processing time from creation to completion.
+ --It helps identify slow payments and potential performance issues in asynchronous processing.
 SELECT
     payment_id,
     status,
