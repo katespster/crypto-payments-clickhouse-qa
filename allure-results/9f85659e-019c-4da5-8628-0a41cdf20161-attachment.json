@@ -1,0 +1,4 @@
+{
+  "error": "Validation error",
+  "message": "Amount must be greater than zero"
+}

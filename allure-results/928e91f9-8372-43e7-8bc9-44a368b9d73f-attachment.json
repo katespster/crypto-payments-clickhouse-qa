@@ -1,0 +1,7 @@
+{
+  "deposit_id": "dep-test-001",
+  "currency": "ETH",
+  "amount": 50,
+  "user_id": "test-user-002",
+  "status": "created"
+}

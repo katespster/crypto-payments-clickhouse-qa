@@ -1,0 +1,4 @@
+{
+  "error": "Validation error",
+  "message": "Missing required field: user_id"
+}
